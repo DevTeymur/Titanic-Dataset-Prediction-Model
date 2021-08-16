@@ -1,6 +1,6 @@
-##Titanic dataset model prediction
+## Titanic dataset model prediction
 
-#Variable Notes
+# Variable Notes
 pclass: A proxy for socio-economic status (SES)
 1st = Upper
 2nd = Middle
@@ -17,10 +17,10 @@ Parent = mother, father
 Child = daughter, son, stepdaughter, stepson
 Some children travelled only with a nanny, therefore parch=0 for them.
 
-#Needed python libraries:
+# Needed python libraries:
 Pandas, matplotlib, seaborn, filterwarnings, numpy, sklearn, xgboost
 
-#General Process
+# General Process
 Some graphs displayed with different parameters to have idea about dataset.
 All outliers and missing values were handled.
 Labels encoded and with the help of GridSearchCV best parameters gotten from each model.
